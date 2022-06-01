@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>White Noise Simulator</title>
+  <meta name="description" content="White Noise Simulator">
+  <meta name="author" content="Steph Koopmanschap">
+
+  <meta property="og:title" content="White Noise Simulator">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://white-noise-simulator.lan/index.html/">
+  <meta property="og:description" content="White Noise Simulator">
+  <meta property="og:image" content="image.png">
+
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+    <center>
+    <h1>White Noise Simulator</h1>
+    <h2>Version 1.0</h2>
+    <p></p>
+
+    
+    <label>Pixel Size: (1 to 100)</label>
+    <input type="range" id="pixelDensity" value="1" min="1" max="100"></input>
+    <label>Colorize?</label>
+    <input type="checkbox" id="colorToggle"></input>
+    <button onclick="startNoise()">START</button>
+    <button onclick="stopNoise()">STOP</button>
+
+    </center>
+    
+    <script src="main.js"></script>
+
+</body>
+</html>
